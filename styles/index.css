@@ -67,10 +67,12 @@ header {
 
 .menu_icn {
   padding: 35px 0px 35px 30px;
+  z-index: 3;
 }
 
 .next_icn {
   padding: 42px 0px 42px 30px;
+  z-index: 3;
 }
 
 .enumeration_of_signs {
@@ -86,7 +88,34 @@ header {
   cursor: pointer;
 }
 
+.enumeration_of_signs h1:hover {
+  color: #FF7B7B;
+  text-decoration: line-through;
+  text-decoration-color: white;
+  text-decoration-thickness: 3px;
+}
+
 .enumeration_of_signs hr {
   size: 5px;
   color: white;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+footer {
+  position: relative;
+  padding-top: 10px;
+}
+
+.footer-element a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Wermut regular';
+  font-size: 30px;
+  padding: 15px 15px;
 }
