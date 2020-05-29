@@ -1,5 +1,37 @@
 @import 'index.css';
 
+@font-face {
+  font-family: 'CSTM italic';
+  src: url('../fonts/cstm-italic.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Wermut regular';
+  src: url('../fonts/wermut-regular.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bitum regular';
+  src: url('../fonts/bitum-regular.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bitum light';
+  src: url('../fonts/bitum-light.ttf')  format('truetype');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+body {
+  background: black;
+}
+
 header {
   display: flex;
   flex-direction: row;

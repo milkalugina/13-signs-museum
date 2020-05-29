@@ -1,0 +1,17 @@
+.advice {
+  padding-top: 150px;
+  padding-left: 30px;
+  position: relative;
+  font-family: 'Bitum light';
+  font-size: 17px;
+  color: white;
+}
+
+table {
+  border-collapse: none;
+  border-spacing: 80px 20px;
+}
+
+td img {
+  cursor: pointer;
+}
