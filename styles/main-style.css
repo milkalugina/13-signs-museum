@@ -3,7 +3,6 @@
 header {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
   width: 100vw;
   z-index: 2;
   position: fixed;
@@ -20,26 +19,20 @@ header hr {
 
 .menu_icn {
   padding: 35px 0px 35px 30px;
-  cursor: pointer;
 }
 
 .next_icn {
   padding: 42px 0px 42px 30px;
-  cursor: pointer;
-}
-
-header .text {
-  width: 100vw;
-  padding-top: 20px;
 }
 
 .text a {
   font-family: 'Wermut regular';
   text-decoration: none;
   text-align: center;
-  cursor: pointer;
   font-size: 60px;
   color: white;
+  margin: 0 auto;
+  padding-top: 20px;
 }
 
 footer {
