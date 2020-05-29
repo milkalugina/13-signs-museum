@@ -1,0 +1,92 @@
+@import 'reset.css';
+
+@font-face {
+  font-family: 'CSTM italic';
+  src: url('../fonts/cstm-italic.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Wermut regular';
+  src: url('../fonts/wermut-regular.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bitum regular';
+  src: url('../fonts/bitum-regular.ttf')  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bitum light';
+  src: url('../fonts/bitum-light.ttf')  format('truetype');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+body {
+  background: black;
+}
+
+header {
+  width: 100vw;
+  z-index: 2;
+  position: fixed;
+  background: black;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.header hr {
+  width: 100vw;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+.header .text {
+  position: absolute;
+  width: 100vw;
+}
+
+.text h1 {
+  font-family: 'Wermut regular';
+  text-align: center;
+  padding-top: 20px;
+  cursor: pointer;
+  font-size: 60px;
+  color: white;
+}
+
+.menu_icn {
+  padding: 35px 0px 35px 30px;
+}
+
+.next_icn {
+  padding: 42px 0px 42px 30px;
+}
+
+.enumeration_of_signs {
+  position: relative;
+}
+
+.enumeration_of_signs h1 {
+  color: white;
+  font-family: 'CSTM italic';
+  font-size: 90px;
+  padding-bottom: 17px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.enumeration_of_signs hr {
+  size: 5px;
+  color: white;
+}
