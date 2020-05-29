@@ -7,11 +7,53 @@
   color: white;
 }
 
-table {
+.icons table {
   border-collapse: none;
   border-spacing: 80px 20px;
 }
 
 td img {
   cursor: pointer;
+}
+
+.video {
+  padding: 30px;
+}
+
+.statistics {
+  width: 1000px;
+ color: white;
+ padding-left: 30px;
+}
+
+
+
+.statistics h3 {
+  font-family: 'Wermut regular';
+  font-size: 40px;
+}
+
+.statistics p {
+  font-family: 'Bitum regular';
+  font-size: 17px;
+  padding: 30px 0px;
+  width: 70%;
+}
+
+.text_about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+.text_about p  {
+  font-family: 'Bitum light';
+  font-size: 17px;
+  color: white;
+}
+
+.cont_for_info {
+  display: flex;
 }
