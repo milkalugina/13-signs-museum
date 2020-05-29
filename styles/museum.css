@@ -46,7 +46,7 @@ td img {
 .text_about {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-right: 30px;
   padding-bottom: 30px;
 }

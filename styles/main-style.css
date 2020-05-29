@@ -33,24 +33,26 @@ body {
 }
 
 header {
-  display: flex;
-  flex-direction: row;
   width: 100vw;
   z-index: 2;
   position: fixed;
   background: black;
-  /* border-top: 3px solid white; */
   border-bottom: 3px solid white;
+}
+
+.icn-next_and_menu {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
 }
 
 header hr {
   width: 100vw;
-  margin-block-start: 0em;
-  margin-block-end: 0em;
 }
 
 .menu_icn {
   padding: 35px 0px 35px 30px;
+  cursor: pointer;
 }
 
 .next_icn {
@@ -66,6 +68,7 @@ header hr {
   margin: 0 auto;
   padding-top: 20px;
   cursor: pointer;
+  padding-bottom: 30px;
 }
 
 footer {
@@ -85,4 +88,65 @@ footer {
   font-family: 'Wermut regular';
   font-size: 30px;
   padding: 15px 30px;
+}
+
+.menu {
+  background-color: #FF7B7B;
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  overflow: hidden;
+  width: 130vw;
+  transition: top ease 0.5s;
+  top: -100%;
+}
+
+.menu.show {
+  transition: top ease 0.5s;
+  top: 0px;
+}
+
+.logo_icn {
+  padding-left: 30px;
+  padding-top: 20px;
+  cursor: pointer;
+}
+
+.menu a {
+  font-family: 'CSTM italic';
+  font-size: 90px;
+  text-decoration: none;
+  color: black;
+  padding-right: 10px;
+}
+
+.menu_items {
+  padding-top: 150px;
+}
+
+.menu_items a:hover {
+  color: white;
+}
+
+.menu_items a:active {
+  text-decoration: line-through;
+  text-decoration-color: white;
+}
+
+.menu_items a:visited {
+  color: #669BA5;
+}
+
+.tickets a {
+  text-decoration: line-through;
+  text-decoration-color: black;
+  text-decoration-thickness: 3px;
+}
+
+.tickets a:visited {
+  text-decoration: line-through;
+  text-decoration-color: #669BA5;
+  text-decoration-thickness: 3px;
 }
