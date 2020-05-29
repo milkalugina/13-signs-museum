@@ -37,6 +37,7 @@ header hr {
 }
 
 footer {
+  border-top: 3px solid white;
   position: relative;
   background-color: black;
   z-index: 2;
