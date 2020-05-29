@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>13 примет</title>
+    <link rel="shortcut icon" href="../imgs/logo_icn.svg" type="image/x-icon">
     <link rel="stylesheet" href="../styles/museum.css">
     <link rel="stylesheet" href="../styles/main-style.css">
-    <link rel="shortcut icon" href="../imgs/logo_icn.svg" type="image/x-icon">
-    <!-- <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> -->
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 </head>
 <body>
   <header>
@@ -23,62 +23,7 @@
       <p><a href="../index.html"></a>13 примет</p>
     </div>
   </header>
-  <div class="menu">
-    <img src="imgs/logo_icn.svg" alt="" class="logo_icn">
-    <div class="menu_items">
-      <div class="museum">
-        <a href="pages/museum.html">музей</a>
-        <a href="pages/museum.html">музей</a>
-        <a href="pages/museum.html">музей</a>
-        <a href="pages/museum.html">музей</a>
-        <a href="pages/museum.html">музей</a>
-        <a href="pages/museum.html">музей</a>
-        <a href="pages/museum.html">музей</a>
-      </div>
-      <div class="gallery">
-        <a href="pages/gallery.html">галерея</a>
-        <a href="pages/gallery.html">галерея</a>
-        <a href="pages/gallery.html">галерея</a>
-        <a href="pages/gallery.html">галерея</a>
-        <a href="pages/gallery.html">галерея</a>
-      </div>
-      <div class="exhibitions">
-        <a href="pages/exhibitions.html">выставки</a>
-        <a href="pages/exhibitions.html">выставки</a>
-        <a href="pages/exhibitions.html">выставки</a>
-        <a href="pages/exhibitions.html">выставки</a>
-      </div>
-      <div class="score">
-        <a href="pages/museum.html">магазин</a>
-        <a href="pages/museum.html">магазин</a>
-        <a href="pages/museum.html">магазин</a>
-        <a href="pages/museum.html">магазин</a>
-        <a href="pages/museum.html">магазин</a>
-      </div>
-      <div class="books">
-        <a href="pages/books.html">книги</a>
-        <a href="pages/books.html">книги</a>
-        <a href="pages/books.html">книги</a>
-        <a href="pages/books.html">книги</a>
-        <a href="pages/books.html">книги</a>
-        <a href="pages/books.html">книги</a>
-        <a href="pages/books.html">книги</a>
-      </div>
-      <div class="contacts">
-        <a href="pages/contacts.html">контакты</a>
-        <a href="pages/contacts.html">контакты</a>
-        <a href="pages/contacts.html">контакты</a>
-        <a href="pages/contacts.html">контакты</a>
-      </div>
-      <div class="tickets">
-        <a href="pages/tickets.html">билеты</a>
-        <a href="pages/tickets.html">билеты</a>
-        <a href="pages/tickets.html">билеты</a>
-        <a href="pages/tickets.html">билеты</a>
-        <a href="pages/tickets.html">билеты</a>
-      </div>
-    </div>
-  </div>
+  <!-- #include virtual="include/menu.txt" -->
   <p class="advice">click ↓</p>
   <div class="cont_for_info">
     <div class="img_about">
@@ -147,6 +92,7 @@
         <a href="https://www.instagram.com/jethappiness/">website made by mila</a>
       </div>
   </footer>
-  <!-- <script src="js/menu.js" charset="utf-8"></script> -->
+   <script src="../js/menu.js" charset="utf-8"></script>
+</script>
 </body>
 </html>
