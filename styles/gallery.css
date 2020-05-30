@@ -1,0 +1,65 @@
+.advice {
+  padding-top: 150px;
+  padding-left: 30px;
+  position: relative;
+  font-family: 'Bitum light';
+  font-size: 17px;
+  color: white;
+}
+
+
+.gallery_block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 30px;
+  text-align: center;
+  padding-top: 15px;
+  width: 100vw;
+}
+
+.posters {
+  width: 30vw;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.posters:hover {
+  box-shadow: 0 0 30px rgba(255, 123, 123, 0.8);
+}
+
+
+.explanations {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: white;
+  width: 504px;
+  height: 755.641px;
+  margin: 15px;
+  margin-top: -774px;
+}
+
+.poster_01, .poster_02 ,.poster_03, .poster_04, .poster_05, .poster_06, .poster_07, .poster_08, .poster_09, .poster_10, .poster_11, .poster_12, .poster_13, .poster_14, .poster_15, .poster_16, .poster_17, .poster_18, .poster_19, .poster_20, .poster_21 {
+  perspective: 1000px;
+}
+
+.front_01, .front_02 ,.front_03, .front_04, .front_05, .front_06, .front_07, .front_08, .front_09, .front_10, .front_11, .front_12, .front_13, .front_14, .front_15, .front_16, .front_17, .front_18, .front_19, .front_20, .front_21 {
+  backface-visibility: hidden;
+  transition: 1s;
+}
+
+.back_01, .back_02 ,.back_03, .back_04, .back_05, .back_06, .back_07, .back_08, .back_09, .back_10, .back_11, .back_12, .back_13, .back_14, .back_15, .back_16, .back_17, .back_18, .back_19, .back_20, .back_21 {
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+    transition: 1s;
+}
+
+.back_01 {
+  transform: rotateY(180deg);
+}
+.poster_01:hover .front_01 {
+	transform: rotateY(180deg);}
+.poster_01:hover .back_01 {
+	transform: rotateY(360deg);}
