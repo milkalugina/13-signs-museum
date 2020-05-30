@@ -19,9 +19,10 @@
 }
 
 .posters {
-  width: 30vw;
+  width: 504px;
   margin: 15px;
   cursor: pointer;
+  height: 755.641px;
 }
 
 .posters:hover {
