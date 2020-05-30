@@ -28,7 +28,6 @@
   box-shadow: 0 0 30px rgba(255, 123, 123, 0.8);
 }
 
-
 .explanations {
   position: absolute;
   display: flex;
@@ -60,4 +59,104 @@
 .front_01.front__01 {
 	transform: rotateY(180deg);}
 .back_01.back__01 {
+	transform: rotateY(360deg);}
+
+.front_02.front__02 {
+	transform: rotateY(180deg);}
+.back_02.back__02 {
+	transform: rotateY(360deg);}
+
+.front_03.front__03 {
+	transform: rotateY(180deg);}
+.back_03.back__03 {
+	transform: rotateY(360deg);}
+
+.front_04.front__04 {
+	transform: rotateY(180deg);}
+.back_04.back__04 {
+	transform: rotateY(360deg);}
+
+.front_05.front__05 {
+	transform: rotateY(180deg);}
+.back_05.back__05 {
+	transform: rotateY(360deg);}
+
+.front_06.front__06 {
+	transform: rotateY(180deg);}
+.back_06.back__06 {
+	transform: rotateY(360deg);}
+
+.front_07.front__07 {
+	transform: rotateY(180deg);}
+.back_07.back__07 {
+	transform: rotateY(360deg);}
+
+.front_08.front__08 {
+	transform: rotateY(180deg);}
+.back_08.back__08 {
+	transform: rotateY(360deg);}
+
+.front_09.front__09 {
+	transform: rotateY(180deg);}
+.back_09.back__09 {
+	transform: rotateY(360deg);}
+
+.front_10.front__10 {
+	transform: rotateY(180deg);}
+.back_10.back__10 {
+	transform: rotateY(360deg);}
+
+.front_11.front__11 {
+	transform: rotateY(180deg);}
+.back_11.back__11 {
+	transform: rotateY(360deg);}
+
+.front_12.front__12 {
+	transform: rotateY(180deg);}
+.back_12.back__12 {
+	transform: rotateY(360deg);}
+
+.front_13.front__13 {
+	transform: rotateY(180deg);}
+.back_13.back__13 {
+	transform: rotateY(360deg);}
+
+.front_14.front__14 {
+	transform: rotateY(180deg);}
+.back_14.back__14 {
+	transform: rotateY(360deg);}
+
+.front_15.front__15 {
+	transform: rotateY(180deg);}
+.back_15.back__15 {
+	transform: rotateY(360deg);}
+
+.front_16.front__16 {
+	transform: rotateY(180deg);}
+.back_16.back__16 {
+	transform: rotateY(360deg);}
+
+.front_17.front__17 {
+	transform: rotateY(180deg);}
+.back_17.back__17 {
+	transform: rotateY(360deg);}
+
+.front_18.front__18 {
+	transform: rotateY(180deg);}
+.back_18.back__18 {
+	transform: rotateY(360deg);}
+
+.front_19.front__19 {
+	transform: rotateY(180deg);}
+.back_19.back__19 {
+	transform: rotateY(360deg);}
+
+.front_20.front__20 {
+	transform: rotateY(180deg);}
+.back_20.back__20 {
+	transform: rotateY(360deg);}
+
+.front_21.front__21 {
+	transform: rotateY(180deg);}
+.back_21.back__21 {
 	transform: rotateY(360deg);}
