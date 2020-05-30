@@ -53,13 +53,11 @@
 .back_01, .back_02 ,.back_03, .back_04, .back_05, .back_06, .back_07, .back_08, .back_09, .back_10, .back_11, .back_12, .back_13, .back_14, .back_15, .back_16, .back_17, .back_18, .back_19, .back_20, .back_21 {
   backface-visibility: hidden;
   transform: rotateY(180deg);
-    transition: 1s;
+  transition: 1s;
+  cursor: pointer;
 }
 
-.back_01 {
-  transform: rotateY(180deg);
-}
-.poster_01:hover .front_01 {
+.front_01.front__01 {
 	transform: rotateY(180deg);}
-.poster_01:hover .back_01 {
+.back_01.back__01 {
 	transform: rotateY(360deg);}
