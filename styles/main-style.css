@@ -80,12 +80,9 @@ header hr {
   padding-bottom: 30px;
 }
 
-.text a {
-  text-decoration: none;
-  color: white;
-}
-
-.text a:hover {
+.text a,
+.text a:hover,
+.text a:visited {
   text-decoration: none;
   color: white;
 }
