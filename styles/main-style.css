@@ -55,6 +55,16 @@ header hr {
   cursor: pointer;
 }
 
+.block_signature {
+  font-family: 'CSTM italic';
+  font-size: 50px;
+  color: #FF7B7B;
+  padding: 25px 0px 30px 30px;
+  text-decoration: line-through;
+  text-decoration-color: #FF7B7B;
+  cursor: default;
+}
+
 .next_icn {
   padding: 42px 0px 42px 30px;
 }
