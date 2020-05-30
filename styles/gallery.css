@@ -30,15 +30,22 @@
 }
 
 .explanations {
+  font-family: 'Bitum light';
+  font-size: 17px;
   position: absolute;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
   background-color: white;
-  width: 504px;
-  height: 755.641px;
+  width: calc(504px - 20px);
+  height: calc(755.641px - 10px);
   margin: 15px;
   margin-top: -774px;
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.explanations:hover {
+  box-shadow: 0 0 30px rgba(255, 123, 123, 0.8);
 }
 
 .poster_01, .poster_02 ,.poster_03, .poster_04, .poster_05, .poster_06, .poster_07, .poster_08, .poster_09, .poster_10, .poster_11, .poster_12, .poster_13, .poster_14, .poster_15, .poster_16, .poster_17, .poster_18, .poster_19, .poster_20, .poster_21 {

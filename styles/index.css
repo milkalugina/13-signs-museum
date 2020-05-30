@@ -13,10 +13,21 @@
   padding-bottom: 17px;
   text-align: center;
   cursor: pointer;
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 200ms;
+  -webkit-transition-timing-function: ease-in-out;
 }
 
 .enumeration_of_signs h1:hover {
   color: #FF7B7B;
+  text-decoration: line-through;
+  text-decoration-color: white;
+  text-decoration-thickness: 3px;
+}
+
+.enumeration_of_signs h1:active {
+  color: #669BA5;
   text-decoration: line-through;
   text-decoration-color: white;
   text-decoration-thickness: 3px;

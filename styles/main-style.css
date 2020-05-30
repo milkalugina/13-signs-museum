@@ -82,6 +82,7 @@ header hr {
 }
 
 footer {
+  width: 100vw;
   border-top: 3px solid white;
   position: relative;
   background-color: black;
@@ -133,6 +134,10 @@ footer {
 }
 
 .menu_items {
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 200ms;
+  -webkit-transition-timing-function: ease-in-out;
   padding-top: 15vh;
 }
 

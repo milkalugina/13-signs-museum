@@ -8,12 +8,27 @@
 }
 
 .icons table {
-  border-collapse: none;
   border-spacing: 80px 20px;
 }
 
-td img {
+td svg {
   cursor: pointer;
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 200ms;
+  -webkit-transition-timing-function: ease-in-out;
+}
+
+svg:hover {
+  fill: #FF7B7B;
+}
+
+svg:active {
+  fill: #669BA5;
+}
+
+svg:visited {
+
 }
 
 .video {
