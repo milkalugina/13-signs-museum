@@ -156,9 +156,9 @@ footer {
   text-decoration-color: white;
 }
 
-.menu_items a:visited {
+/* .menu_items a:visited {
   color: #669BA5;
-}
+} */
 
 .tickets a {
   text-decoration: line-through;
@@ -168,6 +168,6 @@ footer {
 
 .tickets a:visited {
   text-decoration: line-through;
-  text-decoration-color: #669BA5;
+  /* text-decoration-color: #669BA5; */
   text-decoration-thickness: 3px;
 }
