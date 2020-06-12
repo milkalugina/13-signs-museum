@@ -1,0 +1,164 @@
+@import 'reset.css';
+
+body {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+}
+
+.content_contacts {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding-top: 110px;
+  flex-wrap: wrap;
+}
+.feedback_form {
+  border: 3px solid white;
+  width: 65vw;
+  margin: 40px;
+}
+
+.feedback_form h2 {
+  font-family: 'CSTM italic';
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 3px solid white;
+}
+
+.feedback_form p input {
+  font-family: 'Wermut regular';
+  font-size: 30px;
+  border: 3px solid white;
+  background: black;
+  color: white;
+  padding: 20px 80px;
+  margin: 10px;
+}
+
+.user_data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.user_data p input,
+.user_data .message {
+  font-family: 'Wermut regular';
+  font-size: 30px;
+  border: 3px solid white;
+  background: black;
+  color: white;
+  width: 30vw;
+  box-sizing: border-box;
+  resize: none;
+}
+
+.user_data .message {
+  resize: none;
+  box-sizing: border-box;
+  width: 61.8vw;
+  height: 265px;
+  padding: 20px 60px;
+}
+
+.user_data p input[type=text]:focus,
+.user_data .message:focus,
+.btn_reset p input:active {
+  background-color: #FF7B7B;
+  border: 3px solid #555;
+}
+
+.checkbox {
+  padding: 15px 0px;
+  margin-left: 28px;
+}
+
+.checkbox label {
+  font-family: 'Bitum light';
+  font-size: 17px;
+  color: white;
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+}
+
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #FF7B7B;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+  left: 6px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.btn_reset {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.info_text {
+  margin: 40px;
+}
+
+.info_text p {
+  font-family: 'Bitum light';
+  font-size: 17px;
+  color: white;
+  padding-bottom: 15px;
+}
+
+.info_text .fb {
+  margin-bottom: 30px;
+}
