@@ -6,6 +6,11 @@ body {
   user-select: none;
 }
 
+:active, :hover, :focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
 .content_contacts {
   position: relative;
   display: flex;
@@ -13,6 +18,7 @@ body {
   padding-top: 110px;
   flex-wrap: wrap;
 }
+
 .feedback_form {
   border: 3px solid white;
   width: 65vw;
@@ -46,6 +52,10 @@ body {
   margin: 10px;
 }
 
+.user_data p {
+  margin-bottom: 15px;
+}
+
 .user_data p input,
 .user_data .message {
   font-family: 'Wermut regular';
@@ -74,7 +84,7 @@ body {
 }
 
 .checkbox {
-  padding: 15px 0px;
+  padding: 10px 0px;
   margin-left: 28px;
 }
 
@@ -88,7 +98,7 @@ body {
   display: block;
   position: relative;
   padding-left: 35px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
