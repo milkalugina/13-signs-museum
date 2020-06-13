@@ -6,3 +6,84 @@
   font-size: 17px;
   color: white;
 }
+
+.flipbook {
+  margin: 3vh;
+  left: 5vw;
+  height: 70vh;
+  transition: margin-left 0.25s ease-out;
+  width: 60vw;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-bottom: 3.5vh;
+}
+
+.flipbook .page {
+  height: 70vh;
+  width: 60vw;
+}
+
+.flipbook .page img {
+  width: 30vw;
+  height: 70vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.buy_icn {
+  position: relative;
+  margin-left: 5vw;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.buy_icn_block {
+  display: flex;
+  flex-direction: row;
+  transition: all 0.3s ease;
+}
+
+
+.buy_icn_block h2 {
+  text-align: center;
+  margin-left: 10px;
+  font-family: 'Wermut regular';
+  font-size: 32px;
+  color: white;
+}
+
+.price {
+  font-family: 'Bitum light';
+  font-size: 17px;
+  color: white;
+  margin-top: 3vh;
+}
+
+.info_book {
+  width: 25vw;
+  position: relative;
+  margin-left: 5vw;
+  padding: 30px;
+}
+
+.name_book {
+  font-family: 'Wermut regular';
+  font-size: 32px;
+  color: white;
+}
+
+.info_book p {
+  padding-top: 3vh;
+  position: relative;
+  font-family: 'Bitum light';
+  font-size: 17px;
+  color: white;
+}
