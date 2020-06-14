@@ -42,6 +42,10 @@ header {
   border-bottom: 3px solid white;
 }
 
+.header-element p a:hover {
+  color: #FF7B7B;
+}
+
 .icn-next_and_menu {
   position: absolute;
   display: flex;
@@ -55,6 +59,10 @@ header hr {
 .menu_icn {
   padding: 35px 0px 35px 30px;
   cursor: pointer;
+}
+
+.menu_icn:hover {
+
 }
 
 .block_signature {
@@ -117,7 +125,7 @@ footer {
   left: 0;
   height: 100%;
   overflow: hidden;
-  width: 130vw;
+  width: 180vw;
   transition: top ease 0.5s;
   top: -100%;
 }

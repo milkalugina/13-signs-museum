@@ -1,5 +1,11 @@
 @import 'reset.css';
 
+body {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+}
+
 .enumeration_of_signs {
   position: relative;
 }
@@ -12,9 +18,9 @@
   padding-bottom: 17px;
   text-align: center;
   cursor: pointer;
-  transition: 200ms;
+  transition: 500ms;
   transition-timing-function: ease-in-out;
-  -webkit-transition: 200ms;
+  -webkit-transition: 500ms;
   -webkit-transition-timing-function: ease-in-out;
 }
 

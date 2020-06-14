@@ -1,3 +1,10 @@
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  transition: all 0.3s ease;
+}
+
 .advice {
   padding-top: 140px;
   padding-left: 30px;
@@ -8,6 +15,7 @@
 }
 
 .flipbook {
+  z-index: 5;
   margin: 3vh;
   left: 5vw;
   height: 70vh;
@@ -24,18 +32,12 @@
 
 .flipbook .page {
   height: 70vh;
-  width: 60vw;
+  /* width: 60vw; */
 }
 
 .flipbook .page img {
   width: 30vw;
   height: 70vh;
-}
-
-.content {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
 }
 
 .buy_icn {

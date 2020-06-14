@@ -1,0 +1,106 @@
+.content {
+  padding-top: 20vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 69vh;
+  padding-bottom: 4vh;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.product {
+  width: 50vw;
+}
+
+.product_01 {
+  width: 45vw;
+  transition: all 1s ease-out;
+}
+
+.product_icn {
+  transition: all 1s ease-out;
+}
+
+.explanation-offer {
+  width: 50vw;
+}
+
+.buy_icn_block {
+  display: flex;
+  flex-direction: row;
+}
+
+.buy_icn_block h2 {
+  margin-top: -5px;
+  padding-left: 15px;
+  font-family: 'Wermut regular';
+  font-size: 40px;
+  color: white;
+}
+
+.product_explanation h3 {
+  padding-top: 15px;
+  font-family: 'Wermut regular';
+  font-size: 30px;
+  color: white;
+}
+
+.product_explanation p {
+  padding-top: 15px;
+  font-family: 'Bitum light';
+  font-size: 17px;
+  color: white;
+  width: 30vw;
+}
+
+#buy_icn_block-svg {
+  transition: all 1s ease-in-out;
+  cursor: pointer;
+}
+
+#buy_icn_block-svg circle {
+  transition: all 1s ease-in-out;
+}
+
+
+
+#text-buy {
+  cursor: pointer;
+}
+
+.offers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  margin-top: 2vh;
+}
+
+.offer-01 {
+  width: 18vw;
+  position: absolute;
+  left: 14vw;
+  top: 1vh;
+}
+
+.offer-02 {
+  position: absolute;
+  width: 15vw;
+  top: 20vh;
+  left: -2vw;
+  transform: rotate(30deg);
+}
+
+.offer-03 {
+  position: absolute;
+  width: 15vw;
+  top: 16vh;
+  right: 10vw;
+  transform: rotate(80deg);
+}
+
+.offer:hover {
+  -webkit-filter: drop-shadow(0px 0px 10px #FF7B7B);
+  filter: drop-shadow(0px 0px 10px #FF7B7B);
+}

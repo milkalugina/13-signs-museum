@@ -1,0 +1,174 @@
+body {
+  overflow-x: hidden;
+}
+
+.magazine {
+  position: relative;
+  padding-top: 120px;
+  height: 420vh;
+}
+
+.product {
+  transition: all 0.5s ease;
+}
+
+.product:hover {
+  -webkit-filter: drop-shadow(0px 0px 20px #FF7B7B);
+  filter: drop-shadow(0px 0px 20px #FF7B7B);
+}
+
+.product_11 {
+  position: absolute;
+  right: 5vw;
+  top: -5vh;
+  z-index: 2;
+}
+
+.product_11-img {
+  width: 25vw;
+  cursor: pointer;
+}
+
+.product_07 {
+  position: absolute;
+  left: 35vw;
+  top: 20vh;
+}
+
+.product_07-img {
+  width: 30vw;
+  cursor: pointer;
+}
+
+.product_12 {
+  position: absolute;
+  left: 5vw;
+  top: 40vh;
+}
+
+.product_12-img {
+  width: 26vw;
+  cursor: pointer;
+}
+
+.product_09 {
+  position: absolute;
+  right: 5vw;
+  top: 50vh;
+}
+
+.product_09-img {
+  width: 40vw;
+  cursor: pointer;
+}
+
+.product_10 {
+  position: absolute;
+  left: 5vw;
+  top: 90vh;
+}
+
+.product_10-img {
+  width: 50vw;
+  cursor: pointer;
+}
+
+.product_04 {
+  position: absolute;
+  right: 15vw;
+  top: 170vh;
+}
+
+.product_04-img {
+  width: 30vw;
+  cursor: pointer;
+}
+
+.product_08 {
+  position: absolute;
+  left: 10vw;
+  top: 160vh;
+}
+
+.product_08-img {
+  width: 40vw;
+  cursor: pointer;
+}
+
+.product_05 {
+  position: absolute;
+  left: 37vw;
+  top: 210vh;
+}
+
+.product_05-img {
+  width: 20vw;
+  cursor: pointer;
+}
+
+.product_13 {
+  position: absolute;
+  right: -5vw;
+  top: 230vh;
+}
+
+.product_13-img {
+  width: 25vw;
+  cursor: pointer;
+}
+
+.product_03 {
+  position: absolute;
+  left: -10vw;
+  top: 260vh;
+}
+
+.product_03-img {
+  width: 35vw;
+  cursor: pointer;
+}
+
+.product_02 {
+  position: absolute;
+  left: 30vw;
+  top: 275vh;
+}
+
+.product_02-img {
+  width: 40vw;
+  cursor: pointer;
+}
+
+.product_06 {
+  position: absolute;
+  right: 7vw;
+  top: 300vh;
+}
+
+.product_06-img {
+  width: 25vw;
+  cursor: pointer;
+}
+
+.product_01 {
+  position: absolute;
+  left: 7vw;
+  top: 350vh;
+}
+
+.product_01-img {
+  width: 50vw;
+  cursor: pointer;
+}
+
+.product_11-2 {
+  position: absolute;
+  right: -7vw;
+  top: 370vh;
+}
+
+.product_11-img-2 {
+  width: 25vw;
+  transform: rotate(30deg);
+  cursor: pointer;
+}
