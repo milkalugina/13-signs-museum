@@ -1,3 +1,5 @@
+@import "reset.css";
+
 .ticket_img {
   height: 70vh;
   margin-left: -200px;
@@ -18,21 +20,27 @@
 }
 
 .buy_icn {
-  position: absolute;
+
   padding: 30px;
 }
 
+.ticket_text {
+  display: flex;
+  flex-direction: column;
+}
+
 .buy_icn_block {
+  margin-top: 10vh;
   display: flex;
   flex-direction: row;
   transition: all 0.3s ease;
-  justify-content: space-around;
+
 }
 
 .buy_icn_block p {
   text-align: center;
   margin-left: 10px;
-  margin-top: -5px;
+
   font-family: 'Wermut regular';
   font-size: 30px;
   color: white;
@@ -57,8 +65,7 @@ div svg:hover {
   color: white;
 }
 
-.ticket_text p {
-  margin-top: 200px;
+.ticket_text .p-text {
   padding: 5px 30px;
   font-family: 'Bitum light';
   font-size: 17px;
@@ -69,3 +76,56 @@ div svg:hover {
   font-family: 'Wermut regular';
   font-size: 40px;
 }
+
+
+  @media (max-width: 1024px) {
+
+  }
+
+  @media (max-width: 768px) {
+
+  }
+
+  @media (max-width: 414px) {
+
+    .ticket_img {
+      height: 40vh;
+    }
+
+    .buy_icn {
+      padding: 10px;
+    }
+
+    .ticket_text {
+      margin-top: -7vh;
+      margin-left: 20px;
+    }
+
+    .ticket_text>.p-text {
+      font-size: 13px;
+      padding: 5px 10px;
+    }
+
+    .ticket_text h3 {
+      padding: 5px 10px;
+    }
+
+    .ticket_text h3 {
+      font-size: 17px;
+    }
+
+    .buy_tickets {
+      flex-direction: column;
+    }
+
+    .buy_icn_block p {
+      font-size: 15px;
+    }
+
+    .buy_icn_block>svg {
+      width: 20px;
+      height: 20px;
+    }
+
+
+  }

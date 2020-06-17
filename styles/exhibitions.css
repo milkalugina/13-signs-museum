@@ -20,11 +20,13 @@
 .exhibition_01 {
   margin-left: 100px;
   width: 37vw;
+  margin: 0px;
   border-radius: 20px;
 }
 
 .exhibition_02 {
   margin-right: 100px;
+  margin: 0px;
   width: 37vw;
   border-radius: 20px;
 }
@@ -32,3 +34,37 @@
 .exhibition_01:hover, .exhibition_02:hover {
   box-shadow: 0 0 30px rgba(255, 123, 123, 0.8);
 }
+
+
+
+  @media (max-width: 1024px) {
+
+  }
+
+  @media (max-width: 768px) {
+
+  }
+
+  @media (max-width: 414px) {
+
+    .advice {
+      padding-top: 60px;
+      font-size: 10px;
+    }
+
+    .exhibitions_block {
+      padding-bottom: 2vh;
+      padding-top: 1vh;
+    }
+
+    .exhibition_01 {
+      width: 80vw;
+      margin: 2vh 5vw;
+    }
+
+    .exhibition_02 {
+      width: 80vw;
+      margin: 2vh 5vw;
+    }
+
+  }

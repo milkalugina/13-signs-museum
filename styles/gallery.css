@@ -166,3 +166,36 @@
 	transform: rotateY(180deg);}
 .back_21.back__21 {
 	transform: rotateY(360deg);}
+
+
+
+  @media (max-width: 1024px) {
+
+  }
+
+  @media (max-width: 768px) {
+
+  }
+
+  @media (max-width: 414px) {
+
+    .advice {
+      padding-top: 60px;
+      font-size: 10px;
+    }
+
+    .posters {
+      width: 300px;
+      height: 450.68px;
+    }
+
+    .explanations {
+      font-family: 'Bitum light';
+      width: calc(300px - 20px);
+      height: calc(450.68px - 10px);
+      margin-top: -468px;
+
+    }
+
+
+  }

@@ -15,7 +15,74 @@
 
 .product_01 {
   width: 45vw;
-  transition: all 1s ease-out;
+}
+
+.product_09 {
+  width: 25vw;
+  margin-top: -6vh;
+  margin-left: 13vw;
+  transform: rotate(35deg);
+}
+
+.product_08 {
+  width: 25vw;
+  margin-top: -6vh;
+  margin-left: 13vw;
+  transform: rotate(35deg);
+}
+
+.product_02 {
+  width: 40vw;
+  padding-top: 2vh;
+  padding-left: 5vw;
+}
+
+.product_12 {
+  width: 30vw;
+  margin-top: 7vh;
+  margin-left: 10vw;
+}
+
+.product_04 {
+  width: 30vw;
+  margin-left: 10vw;
+}
+
+.product_11 {
+  width: 30vw;
+  margin-left: 10vw;
+}
+
+.product_07 {
+  width: 30vw;
+  margin-left: 10vw;
+}
+
+.product_13 {
+  width: 25vw;
+  margin-left: 13vw;
+}
+
+.product_03 {
+  width: 33vw;
+  margin-left: 8vw;
+  margin-top: -4vh;
+}
+
+.product_06 {
+  width: 25vw;
+  margin-left: 12vw;
+}
+
+.product_05 {
+  width: 25vw;
+  margin-top: -3vh;
+  margin-left: 12vw;
+}
+
+.product_10 {
+  width: 40vw;
+  margin-left: 6vw;
 }
 
 .product_icn {
@@ -98,6 +165,52 @@
   top: 16vh;
   right: 10vw;
   transform: rotate(80deg);
+}
+
+.offer-01-04 {
+  transform: rotate(-65deg);
+  top: -3vh;
+  width: 16vw;
+}
+
+.offer-02-05 {
+  transform: rotate(-65deg);
+  top: 17vh;
+  width: 13vw;
+  left: 2vw;
+}
+
+.offer-03-07 {
+  transform: rotate(-50deg);
+  top: 20vh;
+  width: 18vw;
+  right: 10vw;
+}
+
+.offer-03-05 {
+  transform: rotate(50deg);
+  top: 17vh;
+  width: 14vw;
+  right: 10vw;
+}
+
+.offer-01-06 {
+  transform: rotate(80deg);
+  width: 13vw;
+  top: -3vh;
+}
+
+.offer-01-10 {
+  width: 20vw;
+}
+
+.offer-01-01 {
+  width: 20vw;
+  left: 10vw;
+}
+
+.offer-02-08 {
+  transform: rotate(-90deg);
 }
 
 .offer:hover {

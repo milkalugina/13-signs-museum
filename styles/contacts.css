@@ -4,6 +4,7 @@ body {
   -moz-user-select: none;
   -khtml-user-select: none;
   user-select: none;
+  overflow-x: hidden;
 }
 
 :active, :hover, :focus {
@@ -35,8 +36,8 @@ body {
 }
 
 .feedback_form p input {
-  font-family: 'Wermut regular';
-  font-size: 30px;
+  font-family: 'CSTM italic';
+  font-size: 50px;
   border: 3px solid white;
   background: black;
   color: white;
@@ -172,3 +173,83 @@ body {
 .info_text .fb {
   margin-bottom: 30px;
 }
+
+
+  @media (max-width: 1024px) {
+
+  }
+
+  @media (max-width: 768px) {
+
+  }
+
+  @media (max-width: 414px) {
+
+    .content_contacts {
+      padding-top: 60px;
+    }
+
+    .feedback_form {
+      width: 90vw;
+      margin: 15px;
+    }
+
+    .feedback_form h2 {
+      font-size: 27px;
+    }
+
+    .user_data>p input,
+    .user_data .message {
+      width: 82vw;
+      font-size: 12px;
+    }
+
+    .feedback_form>.btn_reset p input {
+      font-size: 27px;
+      padding: 10px 40px;
+    }
+
+    .info_text p {
+      font-size: 13px;
+    }
+
+    .checkbox label {
+      font-size: 10px;
+    }
+
+  }
+
+  @media (max-width: 320px) {
+
+    .content_contacts {
+      padding-top: 60px;
+    }
+
+    .feedback_form {
+      width: 87vw;
+      margin: 6px;
+    }
+
+    .feedback_form h2 {
+      font-size: 27px;
+    }
+
+    .user_data>p input,
+    .user_data .message {
+      width: 82vw;
+      font-size: 12px;
+    }
+
+    .feedback_form>.btn_reset p input {
+      padding: 10px 40px;
+    }
+
+    .info_text p {
+      font-size: 13px;
+    }
+
+    .checkbox label {
+      font-size: 10px;
+    }
+
+  }

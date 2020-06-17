@@ -14,8 +14,7 @@ body {
   color: white;
   font-family: 'CSTM italic';
   font-size: 90px;
-  padding-top: 8px;
-  padding-bottom: 17px;
+  padding: 8px 0px 17px 0px;
   text-align: center;
   cursor: pointer;
   transition: 500ms;
@@ -42,4 +41,21 @@ body {
   background-color: white;
   height: 2px;
   color: white;
+}
+
+
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 414px) {
+  .enumeration_of_signs h1 {
+    font-size: 27px;
+    padding: 8px 15px 17px 15px;
+  }
 }
