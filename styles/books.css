@@ -40,6 +40,14 @@
   height: 70vh;
 }
 
+.carousel {
+  display: none;
+}
+
+.slide {
+  display: none;
+}
+
 .buy_icn {
   position: relative;
   margin-left: 5vw;
@@ -89,3 +97,194 @@
   font-size: 17px;
   color: white;
 }
+
+
+
+  @media (max-width: 1024px) {
+
+  }
+
+  @media (max-width: 768px) {
+
+  }
+
+  @media (max-width: 414px) {
+
+    body {
+      font-weight: 100%;
+      overflow-x: hidden;
+    }
+    .advice {
+      padding-top: 60px;
+      font-size: 10px;
+    }
+
+    .content {
+      flex-direction: column;
+    }
+
+    .flipbook {
+      display: none;
+    }
+
+    .name_book {
+      font-size: 17px;
+    }
+
+    .info_book {
+      width: 85vw;
+      padding: 10px;
+    }
+
+    .buy_icn {
+      padding: 10px;
+    }
+
+    .buy_icn_block h2 {
+      font-size: 17px;
+    }
+
+    .buy_icn_block>svg {
+      width: 5%;
+      height: 5%;
+    }
+
+    .slide {
+      display: block;
+      align-items: center;
+    }
+
+
+    .carousel-inner {
+      display: flex;
+      margin: 18px;
+      width: 90vw;
+    }
+
+    .menu_icn {
+      width: 40px !important;
+      padding: 15px 0px 15px 15px !important;
+    }
+
+    .next_icn {
+      padding: 15px 15px 15px 0px !important;
+      width: 45px !important;
+    }
+
+    .logo_icn {
+      width: 40px !important;
+      padding: 15px 0px 15px 15px !important;
+    }
+
+    .pages {
+      margin-left: 4vw;
+      width: 345px !important;
+      height: 448.5px !important;
+      padding: 5px;
+    }
+
+    .info_book p {
+      font-size: 13px;
+      padding-top: 1vh;
+      padding-bottom: 2vh;
+    }
+
+    .price {
+      font-size: 13px;
+    }
+
+    .d-block {
+
+    }
+
+  }
+
+  @media (max-width: 320px) {
+
+    body {
+      font-weight: 100%;
+      overflow-x: hidden;
+    }
+    .advice {
+      padding-top: 60px;
+      font-size: 10px;
+    }
+
+    .content {
+      flex-direction: column;
+    }
+
+    .flipbook {
+      display: none;
+    }
+
+    .name_book {
+      font-size: 17px;
+    }
+
+    .info_book {
+      width: 85vw;
+      padding: 10px;
+    }
+
+    .buy_icn {
+      padding: 10px;
+    }
+
+    .buy_icn_block h2 {
+      font-size: 17px;
+    }
+
+    .buy_icn_block>svg {
+      width: 5%;
+      height: 5%;
+    }
+
+    .slide {
+      display: block;
+      align-items: center;
+    }
+
+
+    .carousel-inner {
+      display: flex;
+      margin: 18px;
+      width: 90vw;
+    }
+
+    .menu_icn {
+      width: 40px !important;
+      padding: 15px 0px 15px 15px !important;
+    }
+
+    .next_icn {
+      padding: 15px 15px 15px 0px !important;
+      width: 45px !important;
+    }
+
+    .logo_icn {
+      width: 40px !important;
+      padding: 15px 0px 15px 15px !important;
+    }
+
+    .pages {
+      margin-left: 2vw;
+      width: 280px !important;
+      height: 364px !important;
+    }
+
+    .info_book p {
+      font-size: 13px;
+      padding-top: 1vh;
+      padding-bottom: 2vh;
+    }
+
+    .price {
+      font-size: 13px;
+    }
+
+    .d-block {
+
+    }
+
+  }
