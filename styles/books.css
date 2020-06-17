@@ -14,6 +14,17 @@
   color: white;
 }
 
+.menu_icn {
+  padding: 35px 0px 35px 30px !important;
+  cursor: pointer;
+  width: 105% !important;
+}
+
+.next_icn {
+  padding: 42px 0px 42px 30px !important;
+  width: 130% !important;
+}
+
 .flipbook {
   z-index: 5;
   margin: 3vh;
@@ -117,6 +128,7 @@
     .advice {
       padding-top: 60px;
       font-size: 10px;
+      padding-right: 20px;
     }
 
     .content {
@@ -253,18 +265,18 @@
     }
 
     .menu_icn {
-      width: 40px !important;
-      padding: 15px 0px 15px 15px !important;
+      width: 40px;
+      padding: 15px 0px 15px 15px;
     }
 
     .next_icn {
-      padding: 15px 15px 15px 0px !important;
-      width: 45px !important;
+      padding: 15px 15px 15px 0px;
+      width: 45px;
     }
 
     .logo_icn {
-      width: 40px !important;
-      padding: 15px 0px 15px 15px !important;
+      width: 40px;
+      padding: 15px 0px 15px 15px;
     }
 
     .pages {

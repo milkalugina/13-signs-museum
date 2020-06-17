@@ -17,6 +17,11 @@ body {
   filter: drop-shadow(0px 0px 20px #FF7B7B);
 }
 
+.product_01>a:visited, .product_02>a:visited, .product_03>a:visited, .product_04>a:visited, .product_05>a:visited, .product_06>a:visited, .product_07>a:visited, .product_08>a:visited, .product_09>a:visited, .product_10>a:visited, .product_11>a:visited, .product_12>a:visited {
+  -webkit-filter: drop-shadow(0px 0px 20px #FFFFFF);
+  filter: drop-shadow(0px 0px 20px #FFFFFF);
+}
+
 .product_11 {
   position: absolute;
   right: 5vw;
