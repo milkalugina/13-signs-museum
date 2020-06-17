@@ -217,3 +217,162 @@
   -webkit-filter: drop-shadow(0px 0px 10px #FF7B7B);
   filter: drop-shadow(0px 0px 10px #FF7B7B);
 }
+
+
+
+  @media (max-width: 1024px) {
+
+  }
+
+  @media (max-width: 768px) {
+
+  }
+
+  @media (max-width: 414px) {
+    .content {
+      padding-top: 10vh;
+      flex-direction: column;
+      overflow-x: hidden;
+      flex-wrap: unset;
+      height: 145vh;
+    }
+
+    .product {
+      width: 90vw;
+    }
+
+    .product_01 {
+      width: 75vw;
+    }
+
+    .product_02 {
+      padding-left: 35px;
+      width: 80vw;
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+
+    .product_03 {
+      width: 75vw;
+    }
+
+    .product_04 {
+      width: 75vw;
+    }
+
+    .product_05 {
+      width: 75vw;
+    }
+
+    .product_06 {
+      width: 75vw;
+    }
+
+    .product_07 {
+      width: 75vw;
+    }
+
+    .product_08 {
+      padding-top: 20px;
+      padding-bottom: 30px;
+      width: 75vw;
+    }
+
+    .product_09 {
+      width: 75vw;
+      padding-left: 20px;
+      transform: rotate(20deg);
+      padding-bottom: 40px;
+    }
+
+    .product_10 {
+      width: 75vw;
+    }
+
+    .product_11 {
+      width: 75vw;
+    }
+
+    .product_13 {
+      width: 75vw;
+      padding-bottom: 30px;
+      padding-top: 20px;
+    }
+
+    .explanation-offer {
+      height: 100%;
+      width: 70vw;
+    }
+
+    .product_explanation {
+      padding-left: 70px;
+    }
+
+    .product_explanation h3 {
+      font-size: 17px;
+    }
+
+    .product_explanation p {
+      width: 70vw;
+      font-size: 13px;
+    }
+
+    #text-buy {
+      font-size: 17px;
+    }
+
+    .buy_icn_block h2 {
+      margin-top: 2px;
+    }
+
+    .buy_icn_block svg {
+      width: 7%;
+      height: 7%;
+    }
+
+    .offer-01 {
+      width: 50vw;
+      left: 18vw;
+    }
+
+    .offer-02 {
+      top: 25vh;
+      width: 40vw;
+      left: 5vw;
+    }
+
+    .offer-03 {
+      top: 20vh;
+      width: 40vw;
+      right: -25vw;
+      transform: rotate(2deg);
+    }
+
+    .offer-01-06 {
+      width: 35vw;
+    }
+
+    .offer-01-10 {
+      width: 60vw;
+      transform: rotate(20deg);
+    }
+
+    .offer-03-05 {
+      top: 22vh;
+    }
+
+    .content-product-02 {
+      height: 125vh;
+    }
+
+    .content-product-08 {
+      height: 140vh;
+    }
+
+    .offer-03-07{
+      top: 23vh;
+      width: 40vw;
+      right: -16vw;
+      transform: rotate(32deg);
+    }
+  }
