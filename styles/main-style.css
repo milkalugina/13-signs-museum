@@ -207,11 +207,50 @@ footer {
   text-decoration-thickness: 3px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1500px) {
+
+  .menu a {
+    font-size: 70px;
+  }
+
+  .menu {
+    width: 250vw;
+  }
+
+  .block_signature {
+    display: none;
+  }
+
+  .text {
+    font-size: 32px;
+  }
+
+  .menu_icn {
+    width: 50%;
+    padding: 25px 0px 20px 30px;
+  }
+
+  .next_icn {
+    width: 70%;
+    padding: 27px 0px 27px 30px;
+  }
+
+  .footer-element a {
+    font-size: 20px;
+  }
 
 }
 
-@media (max-width: 1024px) {
+
+@media (max-width: 768px) {
+
+  .menu {
+    width: 350vw;
+  }
+
+  .menu a {
+    font-size: 58px;
+  }
 
 }
 

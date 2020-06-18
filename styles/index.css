@@ -8,6 +8,7 @@ body {
 
 .enumeration_of_signs {
   position: relative;
+  padding-top: 120px;
 }
 
 .enumeration_of_signs h1 {
@@ -44,13 +45,20 @@ body {
 }
 
 
+@media (max-width: 1500px) {
 
-@media (max-width: 1024px) {
+
+  .enumeration_of_signs h1 {
+    font-size: 70px;
+  }
 
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
 
+  .enumeration_of_signs h1 {
+    font-size: 58px;
+  }
 }
 
 @media (max-width: 414px) {

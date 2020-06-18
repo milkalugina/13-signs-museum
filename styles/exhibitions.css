@@ -35,36 +35,66 @@
   box-shadow: 0 0 30px rgba(255, 123, 123, 0.8);
 }
 
+@media (max-width: 1500px) {
 
-
-  @media (max-width: 1024px) {
-
+  .advice {
+    padding-top: 120px;
+    padding-bottom: 20px;
+    padding-left: 90px;
   }
 
-  @media (max-width: 768px) {
-
+  .exhibitions_block {
+    flex-direction: column;
+    padding-bottom: 0px;
   }
 
-  @media (max-width: 414px) {
-
-    .advice {
-      padding-top: 60px;
-      font-size: 10px;
-    }
-
-    .exhibitions_block {
-      padding-bottom: 2vh;
-      padding-top: 1vh;
-    }
-
-    .exhibition_01 {
-      width: 80vw;
-      margin: 2vh 5vw;
-    }
-
-    .exhibition_02 {
-      width: 80vw;
-      margin: 2vh 5vw;
-    }
-
+  .exhibition_01, .exhibition_02 {
+    width: 80vw;
+    padding-bottom: 50px;
   }
+
+}
+
+@media (max-width: 768px) {
+  .advice {
+    padding-top: 120px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+    font-size: 15px;
+  }
+
+  .exhibitions_block {
+    flex-direction: column;
+    padding-bottom: 0px;
+  }
+
+  .exhibition_01, .exhibition_02 {
+    width: 80vw;
+    padding-bottom: 50px;
+  }
+
+}
+
+@media (max-width: 414px) {
+
+  .advice {
+    padding-top: 60px;
+    font-size: 10px;
+  }
+
+  .exhibitions_block {
+    padding-bottom: 2vh;
+    padding-top: 1vh;
+  }
+
+  .exhibition_01 {
+    width: 80vw;
+    margin: 2vh 5vw;
+  }
+
+  .exhibition_02 {
+    width: 80vw;
+    margin: 2vh 5vw;
+  }
+
+}

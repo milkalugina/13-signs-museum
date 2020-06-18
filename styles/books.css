@@ -111,192 +111,250 @@
 
 
 
-  @media (max-width: 1024px) {
+@media (max-width: 1500px) {
+
+  .menu_icn {
+    width: 85% !important;
+    padding: 25px 0px 20px 30px !important;
+  }
+
+  .next_icn {
+    width: 105% !important;
+    padding: 27px 0px 27px 30px !important;
+  }
+
+  .flipbook {
+    width: 900px;
+    height: 600.42px;
+    z-index: 1;
+  }
+
+  .flipbook .page img {
+    width: 450px;
+    height: 600.42px;
+  }
+
+  .info_book {
+    width: 90vw;
+  }
+
+}
+
+
+@media (max-width: 1200px) {
+
+  .content {
+    flex-direction: column;
+    he
+  }
+
+  .info_book {
+    width: 90vw;
+  }
+  .menu_icn {
+    width: 85% !important;
+    padding: 25px 0px 20px 30px !important;
+  }
+
+  .next_icn {
+    width: 105% !important;
+    padding: 27px 0px 27px 30px !important;
+  }
+
+  .flipbook {
+    width: 700px;
+    height: 466.99px;
+    z-index: 1;
+  }
+
+  .flipbook .page img {
+    width: 350px;
+    height: 466.99px;
+  }
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 414px) {
+
+  body {
+    font-weight: 100%;
+    overflow-x: hidden;
+  }
+  .advice {
+    padding-top: 60px;
+    font-size: 10px;
+    padding-right: 20px;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .flipbook {
+    display: none;
+  }
+
+  .name_book {
+    font-size: 17px;
+  }
+
+  .info_book {
+    width: 85vw;
+    padding: 10px;
+  }
+
+  .buy_icn {
+    padding: 10px;
+  }
+
+  .buy_icn_block h2 {
+    font-size: 17px;
+  }
+
+  .buy_icn_block>svg {
+    width: 5%;
+    height: 5%;
+  }
+
+  .slide {
+    display: block;
+    align-items: center;
+  }
+
+
+  .carousel-inner {
+    display: flex;
+    margin: 18px;
+    width: 90vw;
+  }
+
+  .menu_icn {
+    width: 40px !important;
+    padding: 15px 0px 15px 15px !important;
+  }
+
+  .next_icn {
+    padding: 15px 15px 15px 0px !important;
+    width: 45px !important;
+  }
+
+  .logo_icn {
+    width: 40px !important;
+    padding: 15px 0px 15px 15px !important;
+  }
+
+  .pages {
+    margin-left: 4vw;
+    width: 345px !important;
+    height: 448.5px !important;
+    padding: 5px;
+  }
+
+  .info_book p {
+    font-size: 13px;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+  }
+
+  .price {
+    font-size: 13px;
+  }
+
+  .d-block {
 
   }
 
-  @media (max-width: 768px) {
+}
+
+@media (max-width: 320px) {
+
+  body {
+    font-weight: 100%;
+    overflow-x: hidden;
+  }
+  .advice {
+    padding-top: 60px;
+    font-size: 10px;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .flipbook {
+    display: none;
+  }
+
+  .name_book {
+    font-size: 17px;
+  }
+
+  .info_book {
+    width: 85vw;
+    padding: 10px;
+  }
+
+  .buy_icn {
+    padding: 10px;
+  }
+
+  .buy_icn_block h2 {
+    font-size: 17px;
+  }
+
+  .buy_icn_block>svg {
+    width: 5%;
+    height: 5%;
+  }
+
+  .slide {
+    display: block;
+    align-items: center;
+  }
+
+
+  .carousel-inner {
+    display: flex;
+    margin: 18px;
+    width: 90vw;
+  }
+
+  .menu_icn {
+    width: 40px;
+    padding: 15px 0px 15px 15px;
+  }
+
+  .next_icn {
+    padding: 15px 15px 15px 0px;
+    width: 45px;
+  }
+
+  .logo_icn {
+    width: 40px;
+    padding: 15px 0px 15px 15px;
+  }
+
+  .pages {
+    margin-left: 2vw;
+    width: 280px !important;
+    height: 364px !important;
+  }
+
+  .info_book p {
+    font-size: 13px;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+  }
+
+  .price {
+    font-size: 13px;
+  }
+
+  .d-block {
 
   }
 
-  @media (max-width: 414px) {
-
-    body {
-      font-weight: 100%;
-      overflow-x: hidden;
-    }
-    .advice {
-      padding-top: 60px;
-      font-size: 10px;
-      padding-right: 20px;
-    }
-
-    .content {
-      flex-direction: column;
-    }
-
-    .flipbook {
-      display: none;
-    }
-
-    .name_book {
-      font-size: 17px;
-    }
-
-    .info_book {
-      width: 85vw;
-      padding: 10px;
-    }
-
-    .buy_icn {
-      padding: 10px;
-    }
-
-    .buy_icn_block h2 {
-      font-size: 17px;
-    }
-
-    .buy_icn_block>svg {
-      width: 5%;
-      height: 5%;
-    }
-
-    .slide {
-      display: block;
-      align-items: center;
-    }
-
-
-    .carousel-inner {
-      display: flex;
-      margin: 18px;
-      width: 90vw;
-    }
-
-    .menu_icn {
-      width: 40px !important;
-      padding: 15px 0px 15px 15px !important;
-    }
-
-    .next_icn {
-      padding: 15px 15px 15px 0px !important;
-      width: 45px !important;
-    }
-
-    .logo_icn {
-      width: 40px !important;
-      padding: 15px 0px 15px 15px !important;
-    }
-
-    .pages {
-      margin-left: 4vw;
-      width: 345px !important;
-      height: 448.5px !important;
-      padding: 5px;
-    }
-
-    .info_book p {
-      font-size: 13px;
-      padding-top: 1vh;
-      padding-bottom: 2vh;
-    }
-
-    .price {
-      font-size: 13px;
-    }
-
-    .d-block {
-
-    }
-
-  }
-
-  @media (max-width: 320px) {
-
-    body {
-      font-weight: 100%;
-      overflow-x: hidden;
-    }
-    .advice {
-      padding-top: 60px;
-      font-size: 10px;
-    }
-
-    .content {
-      flex-direction: column;
-    }
-
-    .flipbook {
-      display: none;
-    }
-
-    .name_book {
-      font-size: 17px;
-    }
-
-    .info_book {
-      width: 85vw;
-      padding: 10px;
-    }
-
-    .buy_icn {
-      padding: 10px;
-    }
-
-    .buy_icn_block h2 {
-      font-size: 17px;
-    }
-
-    .buy_icn_block>svg {
-      width: 5%;
-      height: 5%;
-    }
-
-    .slide {
-      display: block;
-      align-items: center;
-    }
-
-
-    .carousel-inner {
-      display: flex;
-      margin: 18px;
-      width: 90vw;
-    }
-
-    .menu_icn {
-      width: 40px;
-      padding: 15px 0px 15px 15px;
-    }
-
-    .next_icn {
-      padding: 15px 15px 15px 0px;
-      width: 45px;
-    }
-
-    .logo_icn {
-      width: 40px;
-      padding: 15px 0px 15px 15px;
-    }
-
-    .pages {
-      margin-left: 2vw;
-      width: 280px !important;
-      height: 364px !important;
-    }
-
-    .info_book p {
-      font-size: 13px;
-      padding-top: 1vh;
-      padding-bottom: 2vh;
-    }
-
-    .price {
-      font-size: 13px;
-    }
-
-    .d-block {
-
-    }
-
-  }
+}

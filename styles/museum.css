@@ -26,10 +26,8 @@ td svg {
 .statistics {
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
   color: white;
   padding-left: 30px;
-  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 65vw;
@@ -89,12 +87,55 @@ svg:visited {
 }
 
 
-@media (max-width: 1024px) {
+@media (max-width: 1500px) {
+  .icons table {
+    border-spacing: 30px 10px;
+  }
 
+  td svg {
+    height: 60%;
+  }
+
+  .statistics {
+    justify-content: space-between;
+  }
 }
 
 @media (max-width: 768px) {
+  .advice {
+    padding-top: 120px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    font-size: 15px;
+  }
 
+  .cont_for_info {
+    flex-direction: column;
+  }
+
+  .video video {
+    width: 90vw;
+  }
+  .statistics {
+    width: 90vw;
+  }
+
+  .statistics h3 {
+    font-size: 32px;
+  }
+
+  .statistics p {
+    font-size: 20px;
+  }
+
+  .statistics {
+    justify-content: space-between;
+    padding-left: 50px;
+  }
+
+  .text_about {
+    padding-left: 50px;
+  }
 }
 
 @media (max-width: 414px) {

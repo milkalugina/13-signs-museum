@@ -168,34 +168,62 @@
 	transform: rotateY(360deg);}
 
 
+@media (max-width: 1500px) {
 
-  @media (max-width: 1024px) {
+  .posters {
+    width: 450px;
+    height: 676.35px;
+  }
+
+  .explanations {
+    width: calc(450px - 20px);
+    height: calc(676.35px - 10px);
+    margin-top: -694px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .advice {
+    padding-top: 120px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-size: 15px;
+  }
+
+  .posters {
+    width: 350px;
+    height: 526.05px;
+  }
+
+  .explanations {
+    width: calc(350px - 20px);
+    height: calc(526.05px - 10px);
+    margin-top: -544px;
+  }
+
+}
+
+@media (max-width: 414px) {
+
+  .advice {
+    padding-top: 60px;
+    font-size: 10px;
+  }
+
+  .posters {
+    width: 300px;
+    height: 450.68px;
+  }
+
+  .explanations {
+    font-family: 'Bitum light';
+    width: calc(300px - 20px);
+    height: calc(450.68px - 10px);
+    margin-top: -468px;
 
   }
 
-  @media (max-width: 768px) {
 
-  }
-
-  @media (max-width: 414px) {
-
-    .advice {
-      padding-top: 60px;
-      font-size: 10px;
-    }
-
-    .posters {
-      width: 300px;
-      height: 450.68px;
-    }
-
-    .explanations {
-      font-family: 'Bitum light';
-      width: calc(300px - 20px);
-      height: calc(450.68px - 10px);
-      margin-top: -468px;
-
-    }
-
-
-  }
+}
