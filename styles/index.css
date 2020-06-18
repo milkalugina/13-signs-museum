@@ -44,12 +44,137 @@ body {
   color: white;
 }
 
+.stars {
+  transition: 500ms;
+  transition-timing-function: ease-in-out;
+}
+
+.stars-svg {
+  fill: white;
+  position: absolute;
+  top: 15vh;
+  left: 15vw;
+  opacity: 0%;
+  z-index: 5;
+}
+
+.stars-moon {
+  fill: white;
+  position: absolute;
+  top: 35vh;
+  right: 15vw;
+  opacity: 0%;
+  z-index: 5;
+}
+
+.stars-big {
+  fill: white;
+  position: absolute;
+  top: 58vh;
+  right: 8vw;
+  opacity: 0%;
+  z-index: 5;
+}
+
+.stars-svg.animation  {
+  transition: 500ms;
+  transition-timing-function: ease-in-out;
+  animation: stars 1s linear 2s infinite alternate;
+  opacity: 100%;
+}
+
+.stars-moon.animation  {
+  transition: 500ms;
+  transition-timing-function: ease-in-out;
+  animation: stars 1s linear 2s infinite alternate;
+  opacity: 100%;
+}
+
+.stars-big.animation  {
+  transition: 500ms;
+  transition-timing-function: ease-in-out;
+  animation: stars 1s linear 2s infinite alternate;
+  opacity: 100%;
+}
+
+@keyframes stars {
+  0% {
+    fill: white;
+  }
+  50% {
+    fill: #FF7B7B;
+  }
+  100% {
+    fill: white;
+  }
+
+}
+
+.glass-1 {
+  height: 70%;
+  width: 70%;
+  position: absolute;
+  margin:  0vw 20vw;
+  margin-top: 15vh;
+  z-index: 4;
+  display: none;
+}
+
+.glass-2 {
+  height: 70%;
+  width: 70%;
+  position: absolute;
+  margin: 0vw 20vw;
+  margin-top: 15vh;
+  z-index: 4;
+  display: none;
+}
+
+.glass-1.animation {
+  animation: glass-1 1s linear 2s infinite alternate;
+  display: block;
+}
+
+.glass-2.animation {
+  animation: glass-2 1s infinite alternate;
+  display: block;
+}
+
+
+@keyframes glass-1 {
+  0% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+  }
+
+}
+
+@keyframes glass-2 {
+  0% {
+    opacity: 100%;
+  }
+  50% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
 
 @media (max-width: 1500px) {
 
 
   .enumeration_of_signs h1 {
     font-size: 70px;
+  }
+
+  .enumeration_of_signs {
+    padding-top: 100px;
   }
 
 }
@@ -65,5 +190,9 @@ body {
   .enumeration_of_signs h1 {
     font-size: 27px;
     padding: 8px 15px 17px 15px;
+  }
+
+  .enumeration_of_signs {
+    padding-top: 60px;
   }
 }
