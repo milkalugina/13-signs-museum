@@ -140,7 +140,6 @@ body {
   display: block;
 }
 
-
 @keyframes glass-1 {
   0% {
     opacity: 0%;
@@ -165,6 +164,92 @@ body {
     opacity: 100%;
   }
 }
+
+.time {
+  transition: 500ms;
+  transition-timing-function: ease-in-out;
+}
+
+.clock-1 {
+  position: absolute;
+  width: 7%;
+  animation: spin 4s linear infinite;
+  opacity: 0%;
+  top: 20vh;
+  left: 20vh;
+  z-index: -1;
+  transition: 500ms;
+  transition-timing-function: ease-in-out;
+}
+
+.clock-2 {
+  position: absolute;
+  animation: spin 4s linear infinite;
+  opacity: 0%;
+  top: 20vh;
+  right: 20vh;
+  z-index: -1;
+  transition: 500ms;
+  transition-timing-function: ease-in-out;
+}
+
+.clock-3 {
+  position: absolute;
+  animation: spin 4s linear infinite;
+  opacity: 0%;
+  width: 10%;
+  z-index: -1;
+  top: 70vh;
+  left: 20vh;
+  transition: 500ms;
+  transition-timing-function: ease-in-out;
+}
+
+.clock-4 {
+  position: absolute;
+  animation: spin 4s linear infinite;
+  opacity: 0%;
+  z-index: -1;
+  top: 58vh;
+  width: 5%;
+  right: 15vh;
+  transition: 500ms;
+  transition-timing-function: ease-in-out;
+}
+
+.clock-1.animation {
+  opacity: 100%;
+  transition: 500ms;
+  transition-timing-function: ease-in-out;
+  z-index: 5;
+}
+
+.clock-2.animation {
+  opacity: 100%;
+  transition: 500ms;
+  transition-timing-function: ease-in-out;
+  z-index: 5;
+}
+
+.clock-3.animation {
+  opacity: 100%;
+  transition: 500ms;
+  transition-timing-function: ease-in-out;
+  z-index: 5;
+}
+
+.clock-4.animation {
+  opacity: 100%;
+  transition: 500ms;
+  transition-timing-function: ease-in-out;
+  z-index: 5;
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg); transform:rotate(360deg);
+    }
+  }
 
 @media (max-width: 1500px) {
 

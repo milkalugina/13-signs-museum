@@ -191,9 +191,9 @@ footer {
   text-decoration-color: white;
 }
 
-/* .menu_items a:visited {
-  color: #669BA5;
-} */
+.menu_items a:visited {
+  opacity: 80%;
+}
 
 .tickets a {
   text-decoration: line-through;
