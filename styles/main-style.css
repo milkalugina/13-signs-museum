@@ -74,10 +74,6 @@ header hr {
   width: 70%;
 }
 
-.menu_icn:hover {
-
-}
-
 .next_icn-ticket {
   transform: rotate(180deg);
 }
@@ -203,12 +199,10 @@ footer {
 
 .tickets a:visited {
   text-decoration: line-through;
-  /* text-decoration-color: #669BA5; */
   text-decoration-thickness: 3px;
 }
 
 @media (max-width: 1500px) {
-
   .menu a {
     font-size: 70px;
   }
@@ -238,12 +232,10 @@ footer {
   .footer-element a {
     font-size: 20px;
   }
-
 }
 
 
 @media (max-width: 768px) {
-
   .menu {
     width: 350vw;
   }
@@ -251,7 +243,6 @@ footer {
   .menu a {
     font-size: 58px;
   }
-
 }
 
 @media (max-width: 414px) {
@@ -306,5 +297,4 @@ footer {
   .next_icn-ticket {
     margin-right: 20px;
   }
-
 }

@@ -36,7 +36,6 @@
 }
 
 @media (max-width: 1500px) {
-
   .advice {
     padding-top: 120px;
     padding-bottom: 20px;
@@ -52,7 +51,6 @@
     width: 80vw;
     padding-bottom: 50px;
   }
-
 }
 
 @media (max-width: 768px) {
@@ -72,11 +70,9 @@
     width: 80vw;
     padding-bottom: 50px;
   }
-
 }
 
 @media (max-width: 414px) {
-
   .advice {
     padding-top: 60px;
     font-size: 10px;
@@ -96,5 +92,4 @@
     width: 80vw;
     margin: 2vh 5vw;
   }
-
 }

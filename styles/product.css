@@ -130,8 +130,6 @@
   transition: all 1s ease-in-out;
 }
 
-
-
 #text-buy {
   cursor: pointer;
 }
@@ -226,11 +224,6 @@
 }
 
 
-
-@media (max-width: 1280px) {
-
-}
-
 @media (max-width: 768px) {
 
   .product_01 {
@@ -276,7 +269,6 @@
     top: 2vh;
     left: 35%;
   }
-
 }
 
 @media (max-width: 414px) {

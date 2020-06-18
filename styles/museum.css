@@ -33,10 +33,6 @@ td svg {
   width: 65vw;
 }
 
-.statistics-block {
-
-}
-
 svg:hover {
   fill: #FF7B7B;
 }
@@ -335,7 +331,6 @@ svg:visited {
 }
 
 @media (max-width: 414px) {
-
   .cont_for_info {
     flex-direction: column;
   }
@@ -389,5 +384,4 @@ svg:visited {
   .text_about p {
     font-size: 13px;
   }
-
 }

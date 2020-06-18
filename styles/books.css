@@ -43,7 +43,6 @@
 
 .flipbook .page {
   height: 70vh;
-  /* width: 60vw; */
 }
 
 .flipbook .page img {
@@ -71,7 +70,6 @@
   flex-direction: row;
   transition: all 0.3s ease;
 }
-
 
 .buy_icn_block h2 {
   text-align: center;
@@ -109,10 +107,7 @@
   color: white;
 }
 
-
-
 @media (max-width: 1500px) {
-
   .menu_icn {
     width: 85% !important;
     padding: 25px 0px 20px 30px !important;
@@ -137,15 +132,12 @@
   .info_book {
     width: 90vw;
   }
-
 }
 
 
 @media (max-width: 1200px) {
-
   .content {
     flex-direction: column;
-    he
   }
 
   .info_book {
@@ -173,12 +165,7 @@
   }
 }
 
-@media (max-width: 768px) {
-
-}
-
 @media (max-width: 414px) {
-
   body {
     font-weight: 100%;
     overflow-x: hidden;
@@ -224,7 +211,6 @@
     align-items: center;
   }
 
-
   .carousel-inner {
     display: flex;
     margin: 18px;
@@ -262,19 +248,14 @@
   .price {
     font-size: 13px;
   }
-
-  .d-block {
-
-  }
-
 }
 
 @media (max-width: 320px) {
-
   body {
     font-weight: 100%;
     overflow-x: hidden;
   }
+
   .advice {
     padding-top: 60px;
     font-size: 10px;
@@ -315,7 +296,6 @@
     align-items: center;
   }
 
-
   .carousel-inner {
     display: flex;
     margin: 18px;
@@ -352,9 +332,4 @@
   .price {
     font-size: 13px;
   }
-
-  .d-block {
-
-  }
-
 }

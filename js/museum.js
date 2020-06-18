@@ -9,6 +9,7 @@ $(document).ready(function() {
     $(".room-13").toggleClass("ani");
   });
 });
+
 $(document).ready(function() {
   $(".bag-room").click(function() {
     $(".room-bags").toggleClass("ani");

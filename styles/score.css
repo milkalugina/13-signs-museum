@@ -179,143 +179,141 @@ body {
 }
 
 @media (max-width: 1500px) {
+  .magazine {
+    height: 330vh;
+    overflow: hidden;
+  }
 
-    .magazine {
-      height: 330vh;
-      overflow: hidden;
-    }
+  .product_11 {
+    right: 15vw;
+    top: -5vh;
+  }
 
-    .product_11 {
-      right: 15vw;
-      top: -5vh;
-    }
+  .product_11-img {
+    width: 30vw;
+  }
 
-    .product_11-img {
-      width: 30vw;
-    }
+  .product_07 {
+    left: 10vw;
+    top: 10vh;
+  }
 
-    .product_07 {
-      left: 10vw;
-      top: 10vh;
-    }
+  .product_07-img {
+    width: 50vw;
+  }
 
-    .product_07-img {
-      width: 50vw;
-    }
+  .product_12 {
+    left: -7vw;
+    top: 46vh;
+  }
 
-    .product_12 {
-      left: -7vw;
-      top: 46vh;
-    }
+  .product_12-img {
+    width: 40vw;
+  }
 
-    .product_12-img {
-      width: 40vw;
-    }
+  .product_09 {
+    right: -15vw;
+    top: 22vh;
+  }
 
-    .product_09 {
-      right: -15vw;
-      top: 22vh;
-    }
+  .product_09-img {
+    width: 45vw;
+  }
 
-    .product_09-img {
-      width: 45vw;
-    }
+  .product_10 {
+    left: -20vw;
+    top: 66vh;
+  }
 
-    .product_10 {
-      left: -20vw;
-      top: 66vh;
-    }
+  .product_10-img {
+    width: 90vw;
+  }
 
-    .product_10-img {
-      width: 90vw;
-    }
+  .product_04 {
+    right: 7vw;
+    top: 90vh;
+  }
 
-    .product_04 {
-      right: 7vw;
-      top: 90vh;
-    }
+  .product_04-img {
+    width: 50vw;
+    transform: rotate(80deg);
+  }
 
-    .product_04-img {
-      width: 50vw;
-      transform: rotate(80deg);
-    }
+  .product_08 {
+    left: -20vw;
+    top: 120vh;
+  }
 
-    .product_08 {
-      left: -20vw;
-      top: 120vh;
-    }
+  .product_08-img {
+    width: 60vw;
+  }
 
-    .product_08-img {
-      width: 60vw;
-    }
+  .product_05 {
+    left: 55vw;
+    top: 135vh;
+  }
 
-    .product_05 {
-      left: 55vw;
-      top: 135vh;
-    }
+  .product_05-img {
+    width: 30vw;
+  }
 
-    .product_05-img {
-      width: 30vw;
-    }
+  .product_13 {
+    right: -10vw;
+    top: 170vh;
+  }
 
-    .product_13 {
-      right: -10vw;
-      top: 170vh;
-    }
+  .product_13-img {
+    width: 50vw;
+  }
 
-    .product_13-img {
-      width: 50vw;
-    }
+  .product_03 {
+    left: -10vw;
+    top: 180vh;
+  }
 
-    .product_03 {
-      left: -10vw;
-      top: 180vh;
-    }
+  .product_03-img {
+    width: 50vw;
+  }
 
-    .product_03-img {
-      width: 50vw;
-    }
+  .product_02 {
+    left: 10vw;
+    top: 225vh;
+  }
 
-    .product_02 {
-      left: 10vw;
-      top: 225vh;
-    }
+  .product_02-img {
+    width: 70vw;
+  }
 
-    .product_02-img {
-      width: 70vw;
-    }
+  .product_06 {
+    right: 20vw;
+    top: 265vh;
+  }
 
-    .product_06 {
-      right: 20vw;
-      top: 265vh;
-    }
+  .product_06-img {
+    width: 33vw;
+  }
 
-    .product_06-img {
-      width: 33vw;
-    }
+  .product_01 {
+    left: -20vw;
+    top: 270vh;
+  }
 
-    .product_01 {
-      left: -20vw;
-      top: 270vh;
-    }
+  .product_01-img {
+    width: 70vw;
+    transform: rotate(40deg);
+  }
 
-    .product_01-img {
-      width: 70vw;
-      transform: rotate(40deg);
-    }
+  .product_11-2 {
+    right: -20vw;
+    top: 290vh;
+  }
 
-    .product_11-2 {
-      right: -20vw;
-      top: 290vh;
-    }
-
-    .product_11-img-2 {
-      width: 50vw;
-    }
+  .product_11-img-2 {
+    width: 50vw;
+  }
 }
 
 @media (max-width: 768px) {
-
   .magazine {
     height: 325vh;
     overflow: hidden;
@@ -324,7 +322,6 @@ body {
 }
 
 @media (max-width: 414px) {
-
   .magazine {
     height: 295vh;
     overflow: hidden;

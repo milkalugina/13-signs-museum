@@ -175,7 +175,6 @@ body {
 }
 
 @media (max-width: 1500px) {
-
   .feedback_form {
     width: 90vw;
   }
@@ -187,11 +186,9 @@ body {
   .checkbox {
     padding: 20px 80px;
   }
-
 }
 
 @media (max-width: 414px) {
-
   .content_contacts {
     padding-top: 60px;
   }
@@ -226,7 +223,6 @@ body {
 }
 
 @media (max-width: 320px) {
-
   .content_contacts {
     padding-top: 60px;
   }
@@ -257,5 +253,4 @@ body {
   .checkbox label {
     font-size: 10px;
   }
-
 }

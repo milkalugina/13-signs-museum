@@ -107,7 +107,6 @@ body {
   100% {
     fill: white;
   }
-
 }
 
 .glass-1 {
@@ -150,7 +149,6 @@ body {
   100% {
     opacity: 0%;
   }
-
 }
 
 @keyframes glass-2 {
@@ -248,12 +246,10 @@ body {
 @keyframes spin {
   100% {
     -webkit-transform: rotate(360deg); transform:rotate(360deg);
-    }
   }
+}
 
 @media (max-width: 1500px) {
-
-
   .enumeration_of_signs h1 {
     font-size: 70px;
   }
@@ -261,11 +257,9 @@ body {
   .enumeration_of_signs {
     padding-top: 100px;
   }
-
 }
 
 @media (max-width: 768px) {
-
   .enumeration_of_signs h1 {
     font-size: 58px;
   }

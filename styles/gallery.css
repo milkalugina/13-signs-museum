@@ -167,9 +167,7 @@
 .back_21.back__21 {
 	transform: rotateY(360deg);}
 
-
 @media (max-width: 1500px) {
-
   .posters {
     width: 450px;
     height: 676.35px;
@@ -180,11 +178,9 @@
     height: calc(676.35px - 10px);
     margin-top: -694px;
   }
-
 }
 
 @media (max-width: 768px) {
-
   .advice {
     padding-top: 120px;
     padding-bottom: 20px;
@@ -202,11 +198,9 @@
     height: calc(526.05px - 10px);
     margin-top: -544px;
   }
-
 }
 
 @media (max-width: 414px) {
-
   .advice {
     padding-top: 60px;
     font-size: 10px;
@@ -222,8 +216,5 @@
     width: calc(300px - 20px);
     height: calc(450.68px - 10px);
     margin-top: -468px;
-
   }
-
-
 }

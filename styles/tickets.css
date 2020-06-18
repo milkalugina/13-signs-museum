@@ -20,7 +20,6 @@
 }
 
 .buy_icn {
-
   padding: 30px;
 }
 
@@ -94,7 +93,6 @@ div svg:hover {
 }
 
 @media (max-width: 768px) {
-
   .ticket_text h3 {
     font-size: 32px;
   }
@@ -102,11 +100,9 @@ div svg:hover {
   .ticket_text .p-text {
     font-size: 15px;
   }
-
 }
 
 @media (max-width: 414px) {
-
   .ticket_img {
     height: 40vh;
   }
@@ -145,6 +141,4 @@ div svg:hover {
     width: 20px;
     height: 20px;
   }
-
-
 }
